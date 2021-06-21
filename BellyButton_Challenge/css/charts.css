@@ -1,0 +1,19 @@
+.jumbotron{
+    margin:15px 0px 0px 0px;
+    border-radius:10px;
+      background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url(https://source.unsplash.com/1600x1050/?nature);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white !important;
+  height:340px;
+  }
+
+  .backsplash{
+      background-color:rgb(121, 150, 204);
+  }
+© 2021 GitHub, Inc.
