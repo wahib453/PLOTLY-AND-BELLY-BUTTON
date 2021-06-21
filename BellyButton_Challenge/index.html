@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/charts.css">
+
+<body>
+
+  <div class="container backsplash">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Belly Button Biodiversity Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3 col-xlg-3">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="panel panel-primary col-xs-12 col-sm-12 col-md-5 col-lg-4 col-xlg-4">
+        <div id="bar"></div>
+      </div>
+    </div>
+    <p>This bar graph displays the top 10 bacteria cultures found around the world.</p>
+    <div class="row">
+      <div class="panel panel-primary col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xlg-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <p>This guage displays average scrubs per week.</p>
+    <div class="row">
+      <div class="panel panel-primary col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+    <p>This bubble graph displays average cultures per sample.</p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="\js\charts.js"></script>
+  
+</body>
+</html>
