@@ -1,5 +1,5 @@
 // create a line chart. A line chart is good for showing trends
-// Plotly.newPlot("plotArea", [{x:[2,4,6,8,10], y:[0,2,4,6,8,12,14,16,18,20]}]);
+Plotly.newPlot("plotArea", [{x:[2,4,6,8,10], y:[0,2,4,6,8,12,14,16,18,20]}]);
 
 // create a bar chart. A bar chart is good for showing how data is distributed across categories.
 // var trace = [{
@@ -32,7 +32,7 @@
 // Plotly.newPlot("plotArea", trace, layout);
 
 // skill Drill
-var numbers = [0,2,4,6,8];
-var addFive = numbers.map(function(x){
-    return x + 5;
-});
+// var numbers = [0,2,4,6,8];
+// var addFive = numbers.map(function(x){
+//     return x + 5;
+// });
